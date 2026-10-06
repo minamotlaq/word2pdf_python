@@ -43,7 +43,6 @@ def download_file(url, save_path):
         f.write(res.content)
         print(f' file saved  : {save_path}')
 
-# daryaft argoman az khat farman
 if len(sys.argv) > 3:
     InputDIR = sys.argv[1]
     OutDIR = sys.argv[2]
@@ -52,7 +51,7 @@ if len(sys.argv) > 3:
 print(f'input: {InputDIR}')
 print(f'output: {OutDIR}')
 
-# ejad folder kho darsoorat adam vojood
+
 if not os.path.exists(OutDIR):
     os.makedirs(OutDIR)
 # list file
@@ -65,7 +64,7 @@ for file in files:
         
         print(f' in process : {file}')
         
-        # upload
+    
         filetoken = upload_pdf(pdf_path)
         
         if filetoken:
