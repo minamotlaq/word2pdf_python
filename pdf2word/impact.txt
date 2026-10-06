@@ -1,0 +1,3 @@
+cd pdf2word
+python pdf_word_api.py
+2bar click on bat in folder
