@@ -1,3 +1,0 @@
-cd pdf2word
-python pdf_word_api.py
-bat:2 bar click on batch file in folder
